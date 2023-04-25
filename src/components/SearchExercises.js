@@ -47,6 +47,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         fontWeight={700}
         sx={{
           fontSize: { lg: "44px", xs: "30px" },
+          color: "#FFFFFF",
         }}
         mb="50px"
         textAlign="center"
@@ -60,7 +61,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             input: { fontWeight: "700", border: "none", borderRadius: "4px" },
             width: { lg: "800px", xs: "350px" },
             backgroundColor: "#fff",
-            borderRadius: "40px",
+            borderRadius: "10px",
           }}
           height="76px"
           value={search}
@@ -81,6 +82,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             height: "56px",
             position: "absolute",
             right: "0",
+            borderRadius: "10px",
           }}
           onClick={handleSearch}
         >
