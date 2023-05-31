@@ -12,7 +12,7 @@ const ExerciseCard = ({ exercise }) => {
         <Button
           sx={{
             ml: "21px",
-            color: "#fff",
+            color: "#FFFFFFF",
             background: "#ffa9a9",
             fontSize: "14px",
             borderRadius: "20px",

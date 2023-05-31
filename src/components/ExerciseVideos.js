@@ -9,11 +9,11 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
   }
   return (
     <Box sx={{ marginTop: { lg: "200px", xs: "20px" } }} p="20px">
-      <Typography variant="h3" mb="33px">
-        Watch
+      <Typography variant="h3" mb="33px" sx={{ color: "#FFFFFF" }}>
+        Watch{" "}
         <span style={{ color: "#ff2625", textTransform: "capitalize" }}>
           {name}
-        </span>
+        </span>{" "}
         exercise video
       </Typography>
       <Stack
@@ -40,15 +40,14 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
                   alt={item.video.title}
                 />
                 <Box>
-                  <Typography variant="h5" color="#000">
+                  <Typography variant="h5" color="#FFFFFF">
                     {item.video.title}
                   </Typography>
-                  <Typography variant="h6" color="#000">
+                  <Typography variant="h6" color="#FFFFFF">
                     {item.video.channelName}
                   </Typography>
                 </Box>
               </a>
-              ;
             </React.Fragment>
           );
         })}

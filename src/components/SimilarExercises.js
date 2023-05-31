@@ -8,7 +8,14 @@ import Loader from "./Loader";
 const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
   return (
     <Box sx={{ mt: { lg: "100px", xs: "0" } }}>
-      <Typography variant="h3" mb={5}>
+      <Typography
+        variant="h3"
+        mb={5}
+        sx={{
+          fontSize: "40px",
+          color: "#FFFFFF",
+        }}
+      >
         Exercises targeting similar muscle groups
       </Typography>
       <Stack direction="row" sx={{ p: "2px", position: "relative" }}>
@@ -18,7 +25,14 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => {
           <Loader />
         )}
       </Stack>
-      <Typography variant="h3" mb={5}>
+      <Typography
+        variant="h3"
+        mb={5}
+        sx={{
+          color: "#FFFFFF",
+          fontSize: "40px",
+        }}
+      >
         Exercises that use similar equipment
       </Typography>
       <Stack direction="row" sx={{ p: "2px", position: "relative" }}>
